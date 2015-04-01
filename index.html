@@ -1,0 +1,268 @@
+
+<!doctype html>
+
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Expert Comptable</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans+Condensed:300,300italic,700">
+        <link rel='stylesheet' href='css/stylesheet.css'>
+        <link rel='stylesheet' href='css/responsiveslides.css'>
+        <link rel="stylesheet" href="css/media-queries.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+        <script src="js/jquery-1.11.0.js"></script>
+        <script src="js/reponse.js"></script>
+        <script src="js/contact_expert.js"></script>
+        <script src="js/inscription.js"></script>
+        <script src="js/responsiveslides.min.js"></script>
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/footer-options.js"></script>
+        
+        <script>
+            // You can also use "$(window).load(function() {"
+            $(function () {
+                // Slideshow 3
+                $("#slider3").responsiveSlides({
+                    auto: false,
+                    pager: false,
+                    nav: true,
+                    speed: 500,
+                    maxwidth: 800,
+                    namespace: "large-btns"
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <header class="container">
+
+            <ul class="liste-header">
+                <li><img src="img/icone-check.png" alt="check"><p >Rapide et gratuit<br><b>Sans engagement.</b></p></li>
+                <li><img src="img/icone-telephone.png" alt="check"><p>Expert Comptable?<br><strong><span> 0 800 </span> 11 22 33</strong></p></li>
+                <button class="btn-inscription" type="submit">INSCRIPTION</button>
+            </ul>
+            
+        </header>
+
+        <section class="wrapper-title">
+            <h1><img src="img/Title.png" alt="Expert Comptable Paris"></h1> 
+
+        </section>
+
+        <section class="container">
+                <div class="bloc-texte" id="bloc-texte">
+                    <h3><strong>Combien vous coûte</strong> votre expert-comptable ?</h3>
+
+                    <article class="liste-avantages">
+                        <h3>En <strong>3 clics,</strong>obtenez le prix<br>
+                            que vous devez payer !</h3>
+
+                        <ul class="advice">
+                            <li><img src="img/icone-check.png" alt="check"><p>Tenue comptabilité</p></li>
+                            <li><img src="img/icone-check.png" alt="check"><p>Audit et conseils</p></li>
+                            <li><img src="img/icone-check.png" alt="check"><p>Externalisation comptabilité</p></li>
+                            <li><img src="img/icone-check.png" alt="check"><p>Production bilan et compte de résultat</p></li>														
+                        </ul>	
+                    </article>
+                </div>
+
+                <div class="bloc-texte1" id="bloc-texte1">
+                    <h3><strong>Qui sommes nous?</strong> </h3>
+
+                    <article>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                    </article>
+                </div>
+                <div class="bloc-texte2" id="bloc-texte2">
+                    <h3><strong>Vous êtes expert comptable?</strong></h3>
+
+                    <article>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab</p> 
+                    </article>
+                </div>
+                <div class="bloc-texte3" id="bloc-texte3">
+                    <h3><strong>Nos solutions</strong></h3>
+                        <article>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab</p> 
+                        </article>  
+                    </article>
+                </div>
+
+
+                <div class="bloc-simulateur">
+<!--********************* Etape 1**********************-->
+
+                    <div id="step-1">
+                        <fieldset class="border"><legend>Simulateur de prix</legend><div class="border"><div class="border">
+                            <form role="form" id="form-step-1">
+                                <div class="content-form">
+                                    <div class="form-group">
+                                        <img src="img/number1.png" alt="number1"><label for="achat">Factures d'achat </label>
+                                        <input class= "achat" id="achat" placeholder="Quantité"><label for="achat">par mois</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <img src="img/number2.png" alt="number2"><label for="vente">Factures de vente</label>
+                                        <input class="vente" id="vente" placeholder="Quantité"><label for="vente">par mois</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <img src="img/number3.png" alt="number3"><label for="salaries">Nombre de salariés</label>
+                                        <input class="salaries" id="salaries" placeholder="Quantité">
+                                    </div>
+                                    <button class="btn-calculer" type="submit" >CALCULER</button>
+                                </div>
+                            </form></div></div>
+                        </fieldset>
+                    </div>
+
+
+<!--********************* Etape 2**********************-->
+                    <div id="step-2">
+                        <fieldset class="border"><legend>Votre coût mensuel</legend><div class="border"><div class="border">
+                            <form role="form" id="contactForm-step-2" method="POST" action="contact.php">
+                                <div class="content-form">
+                                    <p>Pour <strong><span id="nb-factures-achat"></span> factures d'achat</strong> et <strong><span id="nb-factures-vente"></span> factures de ventes</strong> par mois, ainsi que 
+                                        <strong><span id="nb-salaries"></span> salarié(s)</strong> votre coût mensuel est compris</p>
+                                    <p class="resultat-calcul">Entre <span id="val-min"></span>€ et <span id="val-max"></span>€ </p>
+                                    <p>Je souhaite recevoir mon devis par email</p>
+
+                                                                     
+                                    <div class="form-group-gender">
+                                        <label for="civilite" >Civilité</label>  
+                                        <span class="option-civ">Mlle.</span>
+                                        <span class="option-civ">Madame</span>
+                                        <span  class="option-civ">Monsieur</span>
+                                    </div>
+                                   
+                                        
+                                        <div class="check-civilites">
+    
+                                            <label for="civilite" class="label-civilite"> &nbsp;</label>
+                                            <input type="radio" name="gender" id="Mlle." value="Mlle.">
+                                            <input type="radio" name="gender" id="Madame" value="Madame">
+                                            <input type="radio" name="gender" id="Monsieur" value="Monsieur">
+                                            
+                                        </div>
+                                    
+
+                                    <div class="form-group-2">
+                                        <label for="name">Nom et prénom</label>
+                                        <input id="name" placeholder="Nom et prénom" required data-validation-required-message="Please enter your name">
+                                    </div>
+
+                                    <div class="form-group-2">
+                                        <label for="email">Email</label>
+                                        <input id="email" placeholder="Email" required data-validation-required-message="Please enter your email">
+                                    </div>
+
+                                    <div class="form-group-2">
+                                        <label for="telephone">Téléphone</label>
+                                        <input id="telephone" placeholder="Téléphone" required data-validation-required-message="Please enter your phone number">
+                                    </div>
+
+                                    <div id="bloc_notif"><span class="notif_message"></span></div>
+                                    <div id="bloc_notif2"><span class="notif_message"></span></div>
+
+                                    <input type="submit" value="ENVOYER" class="send_button btn btn-primary"/>
+                                </div>
+                            </form></div></div>
+                        </fieldset>
+                    </div>
+
+                   
+<!--********************* Etape 3**********************-->
+
+                    <div id="step-3">
+                        <fieldset class="border"><legend>Inscription</legend><div class="border"><div class="border">
+                            <form role="form" id="contactForm-step-3" method="POST" action="#">
+                                <div class="content-form3">
+                                    <p>Pour toute demande d'information, nous vous invitons à nous laisser un message avec vos coordonnées afin que nous puissions vous recontacter dans les plus brefs délais.</p>
+                                    <div class="form-group-metier">
+                                        <label for="metier" class="libelle">Vous êtes?</label>
+                                        <select name="metier" class="metier" id="metier">
+                                            <option value="comptable">Un expert comptable</option>
+                                            <option value="particulier">Un particulier</option>
+                                            <option value="autre">Autre</option>
+                                        </select>
+                                    </div>	
+                                    <div class="form-group-gender">
+                                        <label for="civilite" >Civilité</label>  
+                                        <span class="option-civ">Mlle.</span>
+                                        <span class="option-civ">Madame</span>
+                                        <span  class="option-civ">Monsieur</span>
+                                    </div>
+                                                                          
+                                    <div class="check-civilites">
+    
+                                        <label for="civilite" class="label-civilite"> &nbsp;</label>
+                                        <input type="radio" name="gender3" id="Mlle." value="Mlle.">
+                                        <input type="radio" name="gender3" id="Madame" value="Madame">
+                                        <input type="radio" name="gender3" id="Monsieur" value="Monsieur"> 
+                                    </div>
+
+                                    <div class="form-group-3">
+                                        <label for="name3" class="libelle">Nom et prénom</label>
+                                        <input id="name3" placeholder="Nom et prénom" required data-validation-required-message="Please enter your name">
+                                    </div>
+
+                                    <div class="form-group-3">
+                                        <label for="email3" class="libelle">Email</label>
+                                        <input id="email3" placeholder="Email" required data-validation-required-message="Please enter your email">
+                                    </div>
+
+                                    <div class="form-group-3">
+                                        <label for="telephone3" class="libelle">Téléphone</label>
+                                        <input id="telephone3" placeholder="Téléphone" required data-validation-required-message="Please enter your phone number">
+                                    </div>
+
+                                    <div class="form-group-3">
+                                        <label for="mail-message" class="libelle">Message</label>
+                                        <textarea required="required" id="mail-message" name="mail-message"></textarea>
+                                    </div>
+
+                                    <div id="bloc_notif3"><span class="notif_message"></span></div>
+
+                                    
+
+
+                                    <button class="btn-envoyer" type="submit">ENVOYER</button>
+                                </div>
+                            </form></div></div>
+                        </fieldset>  
+                    </div>
+                     
+                    <section class="personnage"><img src="img/personnage-ExpertComptableParis.png" alt=""></section>	
+                </div>
+        </section>	
+
+
+        <section>
+
+            <!-- Slideshow 3 -->
+            <div class="rslides_container">
+                <div class="bloc-partenaires">
+                    <h3 class="partenaires">Nos <strong>partenaires</strong> de <strong>confiance.</strong></h3>
+                </div>
+                <ul class="rslides" id="slider3">
+                    <li><img src="img/logo_webartisan.png" alt=""></li>
+                    <li><img src="img/logo-webexpertcomptable-V1.png" alt=""></li>
+                    <li><img src="img/logo_webartisan.png" alt=""></li>
+                    <li><img src="img/logo-webexpertcomptable-V1.png" alt=""></li>
+                </ul>
+            </div>
+        </section>
+
+            <footer>
+                <ul class="footer-options">
+                    <li><a class="bloc-texte1" href="#bloc-texte1">Qui sommes nous</a></li>
+                    <li><a class="bloc-texte" href="#bloc-texte">Comment ça marche?</a></li>
+                    <li><a class="bloc-texte2" href="#bloc-texte2">Vous êtes expert comptable?</a></li>
+                    <li><a class="bloc-texte3" href="#bloc-texte3">Nos solutions</a></li>
+                </ul>
+
+            </footer>
+        
+    </body>
+</html>

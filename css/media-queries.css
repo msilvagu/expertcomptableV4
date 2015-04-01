@@ -1,0 +1,487 @@
+
+@media screen and (min-width: 0px) and (max-width:600px) {
+	
+	html, body {
+		font-size: 95%;
+	}
+
+	header li, footer li, header button{
+        float:none;
+        width:100%;
+        text-align: center;
+     }
+
+
+    header li p{
+      text-align: left;
+    } 
+
+    .container h3{
+	  font-size: 1.4em;
+	}
+
+
+    section.wrapper-title  h1  img{ 
+        height: 95%;
+        width: 95%;
+    }
+
+    .personnage{
+    	display: none;
+    }
+
+    ul.advice > li{
+		text-align: left;
+		font-size: 0.7em;
+	}
+
+	ul.advice > li > img {
+		width: 10%;
+		vertical-align: middle;
+	}
+
+	div.bloc-texte {
+	    float: none;
+	    text-align: center;
+	    display: block;
+	}
+
+	div.bloc-texte1, div.bloc-texte2, div.bloc-texte3 {
+	    font-size: 1em;
+	    list-style-type: none;
+	    width: 100%;
+	}
+
+	div#step-1 legend, div#step-2 legend, div#step-3 legend {
+	    font-size: 1.5em;
+	    font-family : "ALLER";
+    }
+
+	div.bloc-simulateur {
+    	display: block;
+    	position:inherit;
+    	float: none;
+    	text-align: center;
+    	margin-left: 0;
+    }
+
+    fieldset.border, .border {
+	    border: 0.050em solid #73b324;
+	    padding: 0.15em;
+	}
+
+	#step-1 .content-form {
+    	margin: 0;
+    	width: 100%;
+    }
+    
+    .content-form3{
+    	margin: 1em;
+    }
+
+   	#step-1 form {
+	    height: 300px;
+	    width: 280px;
+	    font-size: 1em;
+	}
+
+    #step-1 .form-group {
+    	margin-top: 0px;
+    	margin-bottom: 10px;
+	}
+
+    /*#step-1 label {
+    	font-size: 0.8em;
+    }*/
+
+    #step-1 .form-group > input + label {
+    	display: none;
+	}
+
+    #step-2 form, #step-3 form {
+	    width: 360px;
+	    padding: 0;
+    } 
+
+    .form-group-2 input, .form-group-3 input, .form-metier select {
+	    width: 15em;
+	}
+
+    .form-group label {
+    	width: 8em;
+    }
+
+    span.option-civ, .check-civilites input {
+    	width: 4em;
+	}
+
+    form button, form input.send_button, form input.btn_envoyer, form button.btn-envoyer {
+	    font-size: 1em;
+	    padding: 0.2em;
+	}
+
+	form input.send_button {
+    	margin: 9px auto auto;
+	}
+
+	form button.btn-calculer {
+    	margin: 40px auto auto;
+	}
+
+	#step-2 form, #step-3 form {
+	    height: 440px;
+	    padding: 0;
+	    width: 360px;
+	}
+
+    #step-2 form p, #step-3 form p {
+    	margin: 1em 0.5em;
+	}
+
+    select.metier {
+    	width: 15em;
+    }
+
+    .form-metier, .form-group-3, div.civilites{
+    	margin-left: 1em;
+    }
+
+    textarea {
+	    height: 4em;
+	    width: 22em;
+	}
+
+    h3.partenaires {
+   		font-size: 0.8em;
+    }
+
+    .rslides_container {
+    	margin-bottom: 15px;
+    }
+
+    footer ul{
+    	padding-left:0; 
+    }
+
+    footer ul li{
+    	font-size: 1.2em;
+    	height: 1.5em;
+    	padding-left:0; 
+    }
+
+
+}
+
+@media screen and (min-width: 601px) and (max-width:900px) {  /*****************/
+	
+	
+	header li {
+    	width: 29%;
+	}
+		
+	div.bloc-texte, div.bloc-texte1,div.bloc-texte2,div.bloc-texte3{
+		display: block;
+    	width: 100%;
+	}
+	
+	.wrapper-center article {
+		float: none;
+	}
+
+	li {
+		font-size: 0.8em;
+	}
+
+	ul.advice > li{
+	text-align: left;
+	}
+
+	ul.advice > li > img {
+		width: 10%;
+		vertical-align: middle;
+	}
+
+	section.wrapper-title  h1  img{ 
+        height: 95%;
+        width: 95%;
+    }
+
+    .bloc-texte {
+	    float: none;
+	    text-align: center;
+	    display: block;
+	}
+
+
+	.form-group label {
+    	width: 11em;
+	}
+
+	#step-1 .form-group > input + label {
+    	display: none;
+	}
+
+	div#step-1 legend, div#step-2 legend, div#step-3 legend {
+	    font-size: 1.8em;
+	    font-family : "ALLER";
+    }
+
+	div.bloc-simulateur {
+    	display: block;
+    	position:inherit;
+    	float: none;
+    	text-align: center;
+    	margin-left: 0;
+    }
+
+
+    
+    #step-1 form, #step-2 form,#step-3 form {
+	    width: 450px;
+	}
+
+
+	#step-1 form, .form-group label, #step-2 form, #step-3 form {
+    	font-size: 1.02em;
+    	padding-left: 0;
+	}
+
+	.personnage{
+    	display: none;
+    }
+
+	#step-1 form{
+	    height: 350px;
+	    width: 450px;
+	}
+
+	#step-2 form {
+    	height: 380px;
+	}
+
+	#step-3 form {
+    	height: 450px;
+    	width: 450px;
+	}
+
+	.resultat-calcul {
+    	font-size: 1.3em;
+    }
+}
+
+
+@media screen and (min-width: 901px) and (max-width:1315px) {  /****************************************************/
+	
+	
+	header li {
+    	width: 29%;
+	}
+		
+	div.bloc-texte, div.bloc-texte1,div.bloc-texte2,div.bloc-texte3{
+	    float: none;
+	    text-align: center;
+	    display: block;
+	    width: 100%;
+	}
+	
+	.wrapper-center article {
+		float: none;
+	}
+
+	header li {
+		font-size: 1em;
+	}
+
+	ul.advice > li{
+	text-align: left;
+	font-size: 0.8em;
+	}
+
+	ul.advice > li > img {
+		width: 10%;
+		vertical-align: middle;
+	}
+
+	section.wrapper-title  h1  img{ 
+        height: 95%;
+        width: 95%;
+    }
+
+    .container h3 {
+    	font-size: 1.8em;
+    }
+
+    .bloc-simulateur {
+    	margin-left: 260px;
+   	}
+
+	.form-group label {
+    	width: 11em;
+	}
+
+	#step-1 .form-group > input + label {
+    	display: none;
+	}
+
+	div#step-1 legend, div#step-2 legend, div#step-3 legend {
+	    font-size: 1.8em;
+	    font-family : "ALLER";
+    }
+
+
+    #step-1 form, #step-2 form,#step-3 form {
+	    width: 450px;
+	}
+
+
+	#step-1 form, .form-group label, #step-2 form, #step-3 form {
+    	font-size: 1.02em;
+    	padding-left: 0;
+	}
+
+	
+	section.personnage {
+	    right: 475px;
+	    top: 245px;
+	}
+
+	#step-1 form{
+	    height: 350px;
+	    width: 450px;
+	}
+
+	#step-2 form {
+    	height: 380px;
+	}
+
+	#step-3 form {
+    	height: 450px;
+    	width: 450px;
+	}
+
+	.resultat-calcul {
+    	font-size: 1.3em;
+    }
+
+    .rslides_container {
+    	margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:1800px) { /*********************************/
+	
+	header li p {
+	    font-size: 1.5em;
+	}
+
+	header li img {
+		width: 15%;
+	}
+
+	section.wrapper-title img{
+		width: 65%;
+	}
+
+	header button {
+    	font-size: 2.3em;
+    }
+
+	ul.advice {
+   		font-size: 1.9em;
+	}
+
+
+	.container h3 {
+	    font-size: 2.5em;
+	    margin-bottom: 0;
+	    text-shadow: 1px 2px 4px rgba(217, 217, 217, 0.9);
+	}
+
+
+	.bloc-simulateur {
+	    margin-bottom: 110px;
+	    margin-left: 100px;
+    }
+
+
+	#step-2 form p, #step-3 form p {
+	    margin: 0.5em;
+	}
+
+	div#step-1 legend, div#step-2 legend, div#step-3 legend {
+	    font-size: 2.2em;
+	}
+
+	#step-2 form, #step-3 form {
+    	font-size: 1.1em;
+	}
+
+	
+
+	#step-2 form {
+	    height: 510px;
+	    width: 510px;
+	}
+
+	textarea {
+	    height: 4em;
+	    width: 35em;
+	}
+
+	#step-3 form {
+	    height: 500px;
+	    width: 540px;
+	}
+
+    .personnage img{
+    	width: 120%;
+    }
+
+    h3.partenaires {
+    	font-size: 1.8em;
+    }
+
+    footer li{
+    	font-size: 1.5em;
+    }
+    
+}	
+
+
+@media screen and (min-height:1000px){
+	
+	section.wrapper-title {
+    	padding: 3em 0 0;
+    }
+
+
+
+    #step-1 form {
+	    font-size: 1.4em;
+	    padding: 1.2em;
+	}
+
+	#step-1 form, #step-2 form {
+	    height: 450px;
+	    width: 550px;
+	}
+
+	#step-1 .form-group {
+    	margin-top: 30px;
+	}
+
+	section.personnage {
+	    right: 600px;
+	    top: 295px;
+    }
+
+	/*.rslides_container {
+    	margin-bottom: 10px;
+	}	*/
+}
+	
+
+
+@media screen and (min-width: 400px){
+	
+}
